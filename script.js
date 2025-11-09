@@ -42,10 +42,22 @@ let userNumber = prompt("Enter a number:");
 if (userNumber === 5 || userNumber === 13 || userNumber % 3 === 0)
 {
     console.log("the number meets the criteria");
-}*/
+}
 
 let name = "Tayla";
 let age = 25;
 let isStudent = true;
-console.log(`My name is ${name}, I am ${age} years old. Student: ${isStudent}`);
+console.log(`My name is ${name}, I am ${age} years old. Student: ${isStudent}`);*/
+
+let age = +prompt("Enter your age:");
+if (age >= 18)
+{
+    alert("Welcome");
+} else 
+{
+    alert("Access denied");
+}
+
+
+
 
